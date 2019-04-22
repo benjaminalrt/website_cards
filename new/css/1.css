@@ -1,0 +1,260 @@
+@font-face
+{
+    font-family: 'perso1';
+    src: url('../perso1.ttf');
+}
+
+body
+{
+    font-family: perso1, Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.925);
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+}
+
+#bg
+{
+    background-size: cover;
+    position: absolute;
+}
+
+header
+{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+#title_a
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px 0 0 35px;
+
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo img
+{
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header h1
+{
+    margin: 0px;
+    color: white;
+}
+
+header h2
+{
+    margin: 0px;
+    color:white;
+}
+
+nav
+{
+    display: flex;
+    position: relative;
+    font-size: 175%;
+    white-space: nowrap;
+}
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li
+{
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+nav a, nav p
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    font-weight: bold;
+}
+
+#bar
+{
+     padding: 0 150px;
+}
+
+#acc
+{
+    display: flex;
+    position: relative;
+    margin: 80px 0 0 1150px;
+    width: 500px;
+    height: 700px;
+
+    
+}
+
+#acc p
+{
+    color: white;
+    padding: 20px;
+    font-size: 400%;
+}
+
+#acc img
+{
+    width: 25%;
+    padding-top: 30px;
+    padding-left: 36%;
+}
+
+#acc_actu
+{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+    margin: 50px 10px 0 10px;
+    min-width: 1800px;
+    height: 775px;
+
+    background: rgb(214, 214, 214);
+    font-size: 300%;
+    color: black;
+    border-top: solid 5px rgb(58, 58, 58);
+    border-bottom: solid 5px rgb(58, 58, 58);
+    border-radius: 100px;
+}
+
+#act_1, #act_2, #act_3
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 30px;
+    min-width: 500px;
+    flex: 1;
+    
+    border-radius: 100px;
+
+
+}
+
+
+
+#act_1
+{
+    background-image: url('../img/starc.png');
+    border-left: solid 5px rgb(177, 59, 59);
+    
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 10% 50%;
+    background-origin: padding-box;
+}
+
+#act_2
+{
+    background-image: url('../img/image.png');
+    border-left: solid 5px rgb(33, 100, 61);
+    
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 10% 50%;
+    background-origin: padding-box;
+}
+
+#act_3
+{
+    border-left: solid 5px rgb(175, 143, 36);
+}
+.typeCl, .typeO, .typeEx
+{
+    border: solid 5px ;
+    border-radius: 100px 0 100px 0;
+    font-size: 50%;
+    margin: 10px auto auto 30px;
+    padding: 0 50px;
+}
+
+.typeCl
+{
+    color: rgb(33, 100, 61)
+}
+
+.typeO
+{
+    color: rgb(177, 59, 59)
+}
+
+.typeEx
+{
+    color: rgb(175, 143, 36)
+}
+
+.actn
+{
+    margin: 0px auto auto auto;
+}
+
+.contentn
+{
+    margin: auto;
+    padding: 10px;
+    margin-left: 50%;
+    font-size: 80%;
+}
+
+.noten
+{
+    margin: auto auto 10px 50px;
+    font-size: 80%;
+}
+
+
+footer 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100px;
+
+    margin: auto 50px;
+
+    color: white;
+}
+
+#copyr
+{
+    flex: 1;
+}
+
+footer ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex: 2;
+}
+
+}
