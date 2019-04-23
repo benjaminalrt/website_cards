@@ -1,0 +1,311 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+@font-face
+{
+    font-family: 'perso1';
+    src: url('../perso1.ttf');
+}
+
+body
+{
+    font-family: perso1, Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.925);
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+}
+
+#bg
+{
+    background-size: cover;
+    position: fixed;
+}
+
+header
+{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+#title_a
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px 0 0 35px;
+
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo img
+{
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header h1, header h2
+{
+    margin: 0px;
+    color: white;
+}
+
+nav
+{
+    display: flex;
+    position: relative;
+    font-size: 175%;
+    white-space: nowrap;
+}
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li
+{
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+header a, nav p
+{
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav strong
+{
+    text-decoration: none, underline;
+
+}
+nav a:hover
+{
+    font-weight: bold;
+}
+
+#bar
+{
+     padding: 0 150px;
+}
+
+
+footer 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    height: 100px;
+
+    margin-top: 30px;
+    padding-left: 50px; padding-right: 50px;
+
+    background: rgb(110, 110, 110);
+    color: white;
+    border-top: rgb(0, 0, 0) 5px solid;
+}
+
+#copyr
+{
+    flex: 1;
+}
+
+footer ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex: 2;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* PAGE D'ACCUEIL */
+
+#acc
+{
+    display: flex;
+    position: relative;
+    margin: 80px 0 0 1150px;
+    width: 500px;
+    height: 700px;
+    transition: 1s;
+
+}
+
+#acc p
+{
+    color: white;
+    padding: 20px;
+    font-size: 400%;
+}
+
+#acc img
+{
+    width: 25%;
+    padding-top: 30px;
+    padding-left: 36%;
+    transition: 0.5s;
+}
+
+#acc img:hover
+{
+    width: 30%;
+    padding-top: 25px;
+    padding-left: 34%;
+    transition: 0.5s;
+}
+
+
+#acc_actu
+{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+    margin: 50px 10px 0 10px;
+    min-width: 1800px;
+    height: 775px;
+
+    font-size: 300%;
+    color: black;
+}
+
+
+#act_1, #act_2, #act_3
+{
+    background: rgb(56, 55, 55);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 30px;
+    min-width: 500px;
+    flex: 1;
+    
+    border-radius: 100px;
+
+}
+
+#act_1
+{
+    background-image: linear-gradient(to bottom left,rgb(255, 255, 255) 20% , rgb(177, 59, 59) 100%);
+    border: solid 5px rgb(177, 59, 59);
+    
+}
+
+#act_2
+{
+    background-image: linear-gradient(to bottom left, rgb(255, 255, 255) 20%, rgb(33,100,61));
+    border: solid 5px rgb(33, 100, 61);
+}
+
+#act_3
+{
+    background-image: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(175,143,36));
+    border: solid 5px rgb(175, 143, 36);
+}
+
+.typeCl, .typeO, .typeEx
+{
+    border: solid 5px ;
+    border-radius: 100px 0 100px 0;
+    font-size: 50%;
+    margin: 10px auto auto 30px;
+    padding: 0 50px;
+}
+
+.actn, .actn a
+{
+    margin: 0px auto auto auto;
+    text-decoration: none;
+}
+
+.actn:hover
+{
+    text-decoration: underline;
+}
+
+#act_1 .actn, .typeO, #act_1 strong, #act_1 a
+{
+    color: rgb(177, 59, 59);
+}
+
+#act_2 .actn, .typeCl, #act_2 strong, #act_2 a
+{
+    color: rgb(33, 100, 61)
+}
+
+#act_3 .actn, .typeEx, #act_3 strong, #act_3 a
+{
+    color: rgb(175, 143, 36)
+}
+
+.contentn
+{
+    margin: auto;
+    padding: 10px;
+    margin-left: 40%;
+    font-size: 80%;
+}
+
+.noten
+{
+    margin: auto auto 10px 50px;
+    font-size: 80%;
+}
+
+/* PAGE A PROPOS */
+
+#corps
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 125%;
+
+    margin: 100px 350px;
+    padding: 0 100px;
+
+    background: linear-gradient(to bottom right, white, grey);
+    border: solid black;
+    border-radius: 75px;
+}
+
+#corps h1
+{
+    font-size: 225%; 
+}
+
+#corps h2
+{
+    font-size: 150%;
+    align-self: flex-start;
+    text-decoration: underline;
+}
+

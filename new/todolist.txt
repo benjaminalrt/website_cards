@@ -1,0 +1,8 @@
+to do list:
+    - Page Jeux (Design de la page, contenu)
+    - Page A propos (informations générales: pq, pour qui, ppp)
+    - Page contact (coordonnées, +form message)
+
+
+    + Forum?
+    + Espace membre
