@@ -1,8 +1,27 @@
-to do list:
-    - Page Jeux (Design de la page, contenu)
-    - Page A propos (informations générales: pq, pour qui, ppp)
-    - Page contact (coordonnées, +form message)
+﻿Programme fin avril
 
+    - Page Jeux: 
+	-Design: 25 avril
+	-Base de donnée: 25 avril
+	-Incorporation: 25 avril
 
-    + Forum?
+    - Page contact
+	-Les coordonnées: 25 avril
+	-Un petit form qui envoie un mail automatiquement: 26 avril
+
+    - Footer
+	-Les coordonnées: 26 avril
+	-Liens clickables (fb, linkedin, ctc): 26 avril
+
+    + Rechercher:
+	-Fonctionnel visuellement, sans affichage: 28 avril
+	-Fonctionnel renvoyant vers jeux / bdd: 28 avril
+
+    + Forum:
+	-FAQ: 29 avril
+	-Programmation: 29 avril
+
     + Espace membre
+	-Design: 30 avril
+	-Programmation: 30 avril
+	
