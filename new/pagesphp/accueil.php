@@ -31,7 +31,7 @@
                         <a href="#">Tarot misé</a>
                     </p>
                     <p class="contentn">  
-                        Voici ce fabuleux jeux de stratégie, combattez sur ce jeu de mise alliant fourberie et survie.
+                        Voici un fabuleux jeux de stratégie, combattez sur ce jeu de mise alliant fourberie et survie.
                     <br/>
                     <a href=#>Découvrir</a>
                     </p>

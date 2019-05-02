@@ -45,7 +45,7 @@
                     rappelle le côté "fait mains" de certaines règles.
                     Comme les jeux indépendants.
                     <h2>Cessons la comédie, c'est quoi ce projet, jeune homme?</h2>
-                    J'aime la programmation, j'aime le concret. Le web m'a concquis dès la première seconde où j'ai posé mes doigts dessus. Ce site, baignant dans un monde qui me plaît, me permet d'apprendre, et de 
+                    J'aime la programmation, j'aime le concret. Le web m'a conquis dès la première seconde où j'ai posé mes doigts dessus. Ce site, baignant dans un monde qui me plaît, me permet d'apprendre, et de 
                     m'entraîner à utiliser un maximum outils de programmation web.
                     L'aboutissement de ce projet se traduira par une acquisition certaine d'expérience et de connaissances.
                     <h3>Bonne navigation, enjoy !</h3>

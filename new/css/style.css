@@ -23,6 +23,7 @@ body
 {
     background-size: cover;
     position: fixed;
+
 }
 
 header
@@ -107,6 +108,7 @@ nav a:hover
      padding: 0 150px;
 }
 
+/* FOOTER */
 
 footer 
 {
@@ -186,6 +188,7 @@ footer a
     display: flex;
     position: relative;
     justify-content: space-around;
+    
 
     margin-top: 100px;
 
@@ -221,7 +224,7 @@ footer a
 
 #act_1
 {
-    background-image: linear-gradient(to bottom left,rgb(255, 255, 255) 20% , rgb(177, 59, 59) 100%);
+    background-image: linear-gradient(to bottom left,rgb(255, 255, 255) 20%, rgb(177, 59, 59) 100%);
     
 }
 
@@ -293,8 +296,9 @@ footer a
     flex-direction: column;
     align-items: center;
 
+    max-width: 1000px; 
 
-    margin: 100px 350px;
+    margin: 100px auto;
     padding: 0 100px;
 
     background: linear-gradient(to bottom right, white, grey);
@@ -316,4 +320,78 @@ footer a
 }
 
 /* PAGE JEUX */
+
+.blablabla
+{
+    position: relative;
+    color:red;
+}
+
+/* PAGE CONTACT */
+
+.sectc
+{
+    position: relative;
+    display:flex;
+    justify-content: center;
+
+
+    color: black;
+}
+
+#info_ctc, #form_ctc
+{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+    width: 500px;
+    height: 600px;
+
+    border: solid black;
+    border-radius: 75px;
+
+    background: linear-gradient(to bottom right, white, grey);
+}
+
+#ou_ctc
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+
+    width: 500px;
+
+    font-size: 700%;
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+}
+
+.sectc h1
+{
+    margin: 50px auto 20px auto;
+    font-size: 200%;
+}
+
+#form_ctc form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#form_ctc p, #form_ctc form
+{
+    font-size: 125%;
+}
+
+.sectc div, .sectc label, .sectc textarea
+{
+    margin-top: 20px;
+}
+
+.sectc h2
+{
+    margin: auto;
+}
 

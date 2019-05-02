@@ -17,10 +17,23 @@
         include("header.php");
         ?>
 
-        <section>
+        <section class="blablabla">
+        <?php
+        if (isset($_GET['prenom']) AND isset($_GET['nom'])) // On a le nom et le prénom
+        {
+            echo 'Bonjour ' . $_GET['prenom'] . ' ' . $_GET['nom'] . ' !';
+        }
+        else // Il manque des paramètres, on avertit le visiteur
+        {
+            echo 'Il faut renseigner un nom et un prénom !';
+        }
+        ?>
 
-            <?php echo "Hello world"; ?>
-            
+        <p>Resultat de recherche de
+        <?php if (isset($_POST['search']))
+            {echo $_POST['search'];}
+        ?>
+        </p>
         </section>
 
         <?php include("footer.php"); ?>
